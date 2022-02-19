@@ -13,12 +13,13 @@ bool is_prime(int n){
 
 int main()
 {
+    cout << "Primes till 100" << endl;
     for (int i = 2; i < 100; i++)
     {
         if (is_prime(i)){
-            cout << i << endl;
+            cout << i << " ";
         }
     }
-    
+    cout << endl;
     return 0;
 }

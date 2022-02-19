@@ -11,18 +11,21 @@ int main()
         exit(1);
     }
 
-    int sum = 0;
-    for (int i = 1; i <= n; i++)
+    int sum = 1;
+    cout << "1";
+    for (int i = 2; i <= n; i++)
     {
         if (i % 2 == 0){
+            cout << " - " << i;
             sum -= i;
         }
         else{
+            cout << " + " << i;
             sum += i;
         }
     }
     
-    cout << "Sum of series: " << sum;
+    cout << " = " << sum;
 
     return 0;
 }
