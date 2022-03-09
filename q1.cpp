@@ -3,11 +3,13 @@ using namespace std;
 
 int main()
 {
-    int n, last_digit, product, sum;
+    int tmp, last_digit, product, sum;
     product = 1;
     sum = 0;
     cout << "Enter a number: " << endl;
-    cin >> n;
+    cin >> tmp;
+
+    int n = tmp < 0 ? (-tmp) : tmp;
 
     while (n > 0)
     {
