@@ -9,7 +9,7 @@ int main()
     cout << "Enter the number: ";
     cin >> tmp;
 
-    n = tmp < 0 ? -tmp : tmp; 
+    n = tmp < 0 ? -tmp : tmp;
 
     while (n > 0)
     {
@@ -18,6 +18,6 @@ int main()
         n /= 10;
     }
     reversed = tmp < 0 ? -reversed : reversed;
-    cout << "Reversed number: " << reversed ;
+    cout << "Reversed number: " << reversed;
     return 0;
 }
