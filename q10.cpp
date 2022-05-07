@@ -82,6 +82,7 @@ int remove_duplicates(int arr[], int n)
                     arr[k] = arr[k + 1];
                 }
                 n--;
+                j--;
             }
         }
     }
